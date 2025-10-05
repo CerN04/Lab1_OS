@@ -1,0 +1,8 @@
+build/
+*.clang-format
+
+!/CMakeLists.txt
+!/parent.cpp
+!/child1.cpp
+!/child2.cpp
+!.gitignore

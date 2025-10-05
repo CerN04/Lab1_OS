@@ -1,0 +1,429 @@
+91106 execve("./parent", ["./parent"], 0x7ffc4c03dce8 /* 36 vars */) = 0
+91106 brk(NULL)                         = 0x5d4f6ce31000
+91106 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c07c35eb000
+91106 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+91106 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+91106 fstat(3, {st_mode=S_IFREG|0644, st_size=23019, ...}) = 0
+91106 mmap(NULL, 23019, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7c07c35e5000
+91106 close(3)                          = 0
+91106 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+91106 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91106 fstat(3, {st_mode=S_IFREG|0644, st_size=2592224, ...}) = 0
+91106 mmap(NULL, 2609472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c07c3200000
+91106 mmap(0x7c07c329d000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000) = 0x7c07c329d000
+91106 mmap(0x7c07c33e5000, 552960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e5000) = 0x7c07c33e5000
+91106 mmap(0x7c07c346c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26b000) = 0x7c07c346c000
+91106 mmap(0x7c07c347a000, 12608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c07c347a000
+91106 close(3)                          = 0
+91106 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+91106 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91106 fstat(3, {st_mode=S_IFREG|0644, st_size=952616, ...}) = 0
+91106 mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c07c34fc000
+91106 mmap(0x7c07c350c000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7c07c350c000
+91106 mmap(0x7c07c358b000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000) = 0x7c07c358b000
+91106 mmap(0x7c07c35e3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000) = 0x7c07c35e3000
+91106 close(3)                          = 0
+91106 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+91106 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91106 fstat(3, {st_mode=S_IFREG|0644, st_size=183024, ...}) = 0
+91106 mmap(NULL, 185256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c07c34ce000
+91106 mmap(0x7c07c34d2000, 147456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c07c34d2000
+91106 mmap(0x7c07c34f6000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7c07c34f6000
+91106 mmap(0x7c07c34fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7c07c34fa000
+91106 close(3)                          = 0
+91106 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+91106 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+91106 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91106 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+91106 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91106 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c07c2e00000
+91106 mmap(0x7c07c2e28000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7c07c2e28000
+91106 mmap(0x7c07c2fb0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7c07c2fb0000
+91106 mmap(0x7c07c2fff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7c07c2fff000
+91106 mmap(0x7c07c3005000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c07c3005000
+91106 close(3)                          = 0
+91106 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c07c34cc000
+91106 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c07c34c9000
+91106 arch_prctl(ARCH_SET_FS, 0x7c07c34c9740) = 0
+91106 set_tid_address(0x7c07c34c9a10)   = 91106
+91106 set_robust_list(0x7c07c34c9a20, 24) = 0
+91106 rseq(0x7c07c34ca060, 0x20, 0, 0x53053053) = 0
+91106 mprotect(0x7c07c2fff000, 16384, PROT_READ) = 0
+91106 mprotect(0x7c07c34fa000, 4096, PROT_READ) = 0
+91106 mprotect(0x7c07c35e3000, 4096, PROT_READ) = 0
+91106 mprotect(0x7c07c346c000, 45056, PROT_READ) = 0
+91106 mprotect(0x5d4f2faeb000, 4096, PROT_READ) = 0
+91106 mprotect(0x7c07c3623000, 8192, PROT_READ) = 0
+91106 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+91106 munmap(0x7c07c35e5000, 23019)     = 0
+91106 futex(0x7c07c347a7bc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+91106 getrandom("\x4b\xc1\x13\x35\xa4\x91\xc6\x47", 8, GRND_NONBLOCK) = 8
+91106 brk(NULL)                         = 0x5d4f6ce31000
+91106 brk(0x5d4f6ce52000)               = 0x5d4f6ce52000
+91106 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x5), ...}) = 0
+91106 getpid()                          = 91106
+91106 write(1, "Parent started with id: 91106\n", 30) = 30
+91106 write(1, "\n", 1)                 = 1
+91106 write(1, "Hello from ProgramLabOSVar19v1! "..., 150) = 150
+91106 write(1, "\n", 1)                 = 1
+91106 fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x5), ...}) = 0
+91106 read(0, "out1\n", 1024)           = 5
+91106 write(1, "Then enter the name of the secon"..., 60) = 60
+91106 write(1, "\n", 1)                 = 1
+91106 read(0, "out2\n", 1024)           = 5
+91106 pipe2([3, 4], 0)                  = 0
+91106 pipe2([5, 6], 0)                  = 0
+91106 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7c07c34c9a10) = 91172
+91172 set_robust_list(0x7c07c34c9a20, 24 <unfinished ...>
+91106 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+91172 <... set_robust_list resumed>)    = 0
+91172 close(4 <unfinished ...>
+91106 <... clone resumed>, child_tidptr=0x7c07c34c9a10) = 91173
+91173 set_robust_list(0x7c07c34c9a20, 24 <unfinished ...>
+91172 <... close resumed>)              = 0
+91106 close(3 <unfinished ...>
+91173 <... set_robust_list resumed>)    = 0
+91172 close(5 <unfinished ...>
+91106 <... close resumed>)              = 0
+91172 <... close resumed>)              = 0
+91106 close(5 <unfinished ...>
+91172 close(6 <unfinished ...>
+91106 <... close resumed>)              = 0
+91172 <... close resumed>)              = 0
+91173 close(6 <unfinished ...>
+91106 write(1, "Now you can enter lines that are"..., 131 <unfinished ...>
+91173 <... close resumed>)              = 0
+91172 dup2(3, 0 <unfinished ...>
+91106 <... write resumed>)              = 131
+91173 close(3 <unfinished ...>
+91172 <... dup2 resumed>)               = 0
+91106 write(1, "\n", 1 <unfinished ...>
+91173 <... close resumed>)              = 0
+91172 close(3 <unfinished ...>
+91106 <... write resumed>)              = 1
+91173 close(4 <unfinished ...>
+91172 <... close resumed>)              = 0
+91106 write(1, "Enter will ending when you enter"..., 38 <unfinished ...>
+91173 <... close resumed>)              = 0
+91172 execve("./child1", ["./child1", "out1"], NULL <unfinished ...>
+91106 <... write resumed>)              = 38
+91173 dup2(5, 0 <unfinished ...>
+91106 getpid( <unfinished ...>
+91173 <... dup2 resumed>)               = 0
+91106 <... getpid resumed>)             = 91106
+91106 read(0,  <unfinished ...>
+91173 close(5)                          = 0
+91172 <... execve resumed>)             = 0
+91173 execve("./child2", ["./child2", "out2"], NULL <unfinished ...>
+91172 brk(NULL)                         = 0x596fa9b65000
+91173 <... execve resumed>)             = 0
+91172 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91173 brk(NULL <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69cd6000
+91173 <... brk resumed>)                = 0x565f3c260000
+91172 access("/etc/ld.so.preload", R_OK <unfinished ...>
+91173 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91172 <... access resumed>)             = -1 ENOENT (No such file or directory)
+91173 <... mmap resumed>)               = 0x7cc1adb53000
+91173 access("/etc/ld.so.preload", R_OK <unfinished ...>
+91172 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+91173 <... access resumed>)             = -1 ENOENT (No such file or directory)
+91172 <... openat resumed>)             = 3
+91173 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+91172 fstat(3,  <unfinished ...>
+91173 <... openat resumed>)             = 3
+91172 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=23019, ...}) = 0
+91173 fstat(3, {st_mode=S_IFREG|0644, st_size=23019, ...}) = 0
+91173 mmap(NULL, 23019, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+91172 mmap(NULL, 23019, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb4d000
+91172 <... mmap resumed>)               = 0x7e0a69cd0000
+91173 close(3 <unfinished ...>
+91172 close(3 <unfinished ...>
+91173 <... close resumed>)              = 0
+91172 <... close resumed>)              = 0
+91173 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+91172 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+91173 <... openat resumed>)             = 3
+91172 <... openat resumed>)             = 3
+91173 read(3,  <unfinished ...>
+91172 read(3,  <unfinished ...>
+91173 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91172 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91173 fstat(3,  <unfinished ...>
+91172 fstat(3,  <unfinished ...>
+91173 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=2592224, ...}) = 0
+91172 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=2592224, ...}) = 0
+91173 mmap(NULL, 2609472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91172 mmap(NULL, 2609472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1ad800000
+91172 <... mmap resumed>)               = 0x7e0a69a00000
+91173 mmap(0x7cc1ad89d000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000 <unfinished ...>
+91172 mmap(0x7e0a69a9d000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1ad89d000
+91172 <... mmap resumed>)               = 0x7e0a69a9d000
+91172 mmap(0x7e0a69be5000, 552960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e5000 <unfinished ...>
+91173 mmap(0x7cc1ad9e5000, 552960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e5000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69be5000
+91173 <... mmap resumed>)               = 0x7cc1ad9e5000
+91172 mmap(0x7e0a69c6c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26b000 <unfinished ...>
+91173 mmap(0x7cc1ada6c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26b000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69c6c000
+91173 <... mmap resumed>)               = 0x7cc1ada6c000
+91172 mmap(0x7e0a69c7a000, 12608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91173 mmap(0x7cc1ada7a000, 12608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69c7a000
+91173 <... mmap resumed>)               = 0x7cc1ada7a000
+91172 close(3 <unfinished ...>
+91173 close(3 <unfinished ...>
+91172 <... close resumed>)              = 0
+91173 <... close resumed>)              = 0
+91172 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+91173 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+91172 <... openat resumed>)             = 3
+91173 <... openat resumed>)             = 3
+91172 read(3,  <unfinished ...>
+91173 read(3,  <unfinished ...>
+91172 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91173 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91172 fstat(3,  <unfinished ...>
+91173 fstat(3,  <unfinished ...>
+91172 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=952616, ...}) = 0
+91173 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=952616, ...}) = 0
+91172 mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91173 mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69917000
+91172 mmap(0x7e0a69927000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1ad717000
+91173 mmap(0x7cc1ad727000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69927000
+91173 <... mmap resumed>)               = 0x7cc1ad727000
+91172 mmap(0x7e0a699a6000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000 <unfinished ...>
+91173 mmap(0x7cc1ad7a6000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a699a6000
+91173 <... mmap resumed>)               = 0x7cc1ad7a6000
+91172 mmap(0x7e0a699fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000 <unfinished ...>
+91173 mmap(0x7cc1ad7fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a699fe000
+91173 <... mmap resumed>)               = 0x7cc1ad7fe000
+91172 close(3 <unfinished ...>
+91173 close(3 <unfinished ...>
+91172 <... close resumed>)              = 0
+91173 <... close resumed>)              = 0
+91172 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+91173 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+91172 <... openat resumed>)             = 3
+91173 <... openat resumed>)             = 3
+91172 read(3,  <unfinished ...>
+91173 read(3,  <unfinished ...>
+91172 <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91173 <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91172 fstat(3,  <unfinished ...>
+91173 fstat(3,  <unfinished ...>
+91172 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=183024, ...}) = 0
+91173 <... fstat resumed>{st_mode=S_IFREG|0644, st_size=183024, ...}) = 0
+91173 mmap(NULL, 185256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91172 mmap(NULL, 185256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb1f000
+91172 <... mmap resumed>)               = 0x7e0a69ca2000
+91173 mmap(0x7cc1adb23000, 147456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000 <unfinished ...>
+91172 mmap(0x7e0a69ca6000, 147456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb23000
+91172 <... mmap resumed>)               = 0x7e0a69ca6000
+91173 mmap(0x7cc1adb47000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000 <unfinished ...>
+91172 mmap(0x7e0a69cca000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb47000
+91172 <... mmap resumed>)               = 0x7e0a69cca000
+91173 mmap(0x7cc1adb4b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000 <unfinished ...>
+91172 mmap(0x7e0a69cce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb4b000
+91172 <... mmap resumed>)               = 0x7e0a69cce000
+91173 close(3)                          = 0
+91172 close(3 <unfinished ...>
+91173 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+91172 <... close resumed>)              = 0
+91173 read(3,  <unfinished ...>
+91172 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+91173 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+91172 read(3,  <unfinished ...>
+91173 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91172 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+91173 fstat(3,  <unfinished ...>
+91172 pread64(3,  <unfinished ...>
+91173 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+91172 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91173 pread64(3,  <unfinished ...>
+91172 fstat(3,  <unfinished ...>
+91173 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91173 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91172 <... fstat resumed>{st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+91173 <... mmap resumed>)               = 0x7cc1ad400000
+91172 pread64(3,  <unfinished ...>
+91173 mmap(0x7cc1ad428000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000 <unfinished ...>
+91172 <... pread64 resumed>"\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+91173 <... mmap resumed>)               = 0x7cc1ad428000
+91172 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+91173 mmap(0x7cc1ad5b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69600000
+91172 mmap(0x7e0a69628000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1ad5b0000
+91173 mmap(0x7cc1ad5ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69628000
+91172 mmap(0x7e0a697b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1ad5ff000
+91172 <... mmap resumed>)               = 0x7e0a697b0000
+91172 mmap(0x7e0a697ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000 <unfinished ...>
+91173 mmap(0x7cc1ad605000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a697ff000
+91173 <... mmap resumed>)               = 0x7cc1ad605000
+91172 mmap(0x7e0a69805000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91173 close(3 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69805000
+91173 <... close resumed>)              = 0
+91173 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91172 close(3)                          = 0
+91172 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7e0a69ca0000
+91173 <... mmap resumed>)               = 0x7cc1adb1d000
+91172 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91173 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+91172 <... mmap resumed>)               = 0x7e0a69c9d000
+91172 arch_prctl(ARCH_SET_FS, 0x7e0a69c9d740 <unfinished ...>
+91173 <... mmap resumed>)               = 0x7cc1adb1a000
+91173 arch_prctl(ARCH_SET_FS, 0x7cc1adb1a740 <unfinished ...>
+91172 <... arch_prctl resumed>)         = 0
+91173 <... arch_prctl resumed>)         = 0
+91172 set_tid_address(0x7e0a69c9da10 <unfinished ...>
+91173 set_tid_address(0x7cc1adb1aa10 <unfinished ...>
+91172 <... set_tid_address resumed>)    = 91172
+91173 <... set_tid_address resumed>)    = 91173
+91172 set_robust_list(0x7e0a69c9da20, 24 <unfinished ...>
+91173 set_robust_list(0x7cc1adb1aa20, 24 <unfinished ...>
+91172 <... set_robust_list resumed>)    = 0
+91173 <... set_robust_list resumed>)    = 0
+91172 rseq(0x7e0a69c9e060, 0x20, 0, 0x53053053 <unfinished ...>
+91173 rseq(0x7cc1adb1b060, 0x20, 0, 0x53053053) = 0
+91172 <... rseq resumed>)               = 0
+91173 mprotect(0x7cc1ad5ff000, 16384, PROT_READ <unfinished ...>
+91172 mprotect(0x7e0a697ff000, 16384, PROT_READ <unfinished ...>
+91173 <... mprotect resumed>)           = 0
+91172 <... mprotect resumed>)           = 0
+91173 mprotect(0x7cc1adb4b000, 4096, PROT_READ <unfinished ...>
+91172 mprotect(0x7e0a69cce000, 4096, PROT_READ <unfinished ...>
+91173 <... mprotect resumed>)           = 0
+91172 <... mprotect resumed>)           = 0
+91173 mprotect(0x7cc1ad7fe000, 4096, PROT_READ) = 0
+91172 mprotect(0x7e0a699fe000, 4096, PROT_READ) = 0
+91173 mprotect(0x7cc1ada6c000, 45056, PROT_READ) = 0
+91172 mprotect(0x7e0a69c6c000, 45056, PROT_READ <unfinished ...>
+91173 mprotect(0x565f153f8000, 4096, PROT_READ) = 0
+91172 <... mprotect resumed>)           = 0
+91173 mprotect(0x7cc1adb8b000, 8192, PROT_READ <unfinished ...>
+91172 mprotect(0x596f91783000, 4096, PROT_READ) = 0
+91173 <... mprotect resumed>)           = 0
+91172 mprotect(0x7e0a69d0e000, 8192, PROT_READ <unfinished ...>
+91173 prlimit64(0, RLIMIT_STACK, NULL,  <unfinished ...>
+91172 <... mprotect resumed>)           = 0
+91173 <... prlimit64 resumed>{rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+91172 prlimit64(0, RLIMIT_STACK, NULL,  <unfinished ...>
+91173 munmap(0x7cc1adb4d000, 23019 <unfinished ...>
+91172 <... prlimit64 resumed>{rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+91173 <... munmap resumed>)             = 0
+91172 munmap(0x7e0a69cd0000, 23019 <unfinished ...>
+91173 futex(0x7cc1ada7a7bc, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+91172 <... munmap resumed>)             = 0
+91173 <... futex resumed>)              = 0
+91172 futex(0x7e0a69c7a7bc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+91173 getrandom( <unfinished ...>
+91172 getrandom( <unfinished ...>
+91173 <... getrandom resumed>"\x06\xdf\xbe\x54\x7a\x2c\x5b\xca", 8, GRND_NONBLOCK) = 8
+91173 brk(NULL <unfinished ...>
+91172 <... getrandom resumed>"\xab\xe5\x1d\x74\xc4\x98\xb7\x12", 8, GRND_NONBLOCK) = 8
+91173 <... brk resumed>)                = 0x565f3c260000
+91172 brk(NULL <unfinished ...>
+91173 brk(0x565f3c281000 <unfinished ...>
+91172 <... brk resumed>)                = 0x596fa9b65000
+91173 <... brk resumed>)                = 0x565f3c281000
+91172 brk(0x596fa9b86000 <unfinished ...>
+91173 fstat(1,  <unfinished ...>
+91172 <... brk resumed>)                = 0x596fa9b86000
+91173 <... fstat resumed>{st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x5), ...}) = 0
+91172 fstat(1,  <unfinished ...>
+91173 getpid( <unfinished ...>
+91172 <... fstat resumed>{st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x5), ...}) = 0
+91173 <... getpid resumed>)             = 91173
+91172 getpid( <unfinished ...>
+91173 write(1, "Child2 started with id: 91173\n", 30) = 30
+91173 write(1, "\n", 1 <unfinished ...>
+91172 <... getpid resumed>)             = 91172
+91173 <... write resumed>)              = 1
+91173 read(0,  <unfinished ...>
+91172 write(1, "Child1 started with id: 91172\n", 30) = 30
+91172 write(1, "\n", 1)                 = 1
+91172 read(0,  <unfinished ...>
+91106 <... read resumed>"WEHR\n", 1024) = 5
+91106 write(4, "\4\0\0\0\0\0\0\0", 8)   = 8
+91172 <... read resumed>"\4\0\0\0\0\0\0\0", 8) = 8
+91106 write(4, "WEHR", 4 <unfinished ...>
+91172 read(0,  <unfinished ...>
+91106 <... write resumed>)              = 4
+91172 <... read resumed>"WEHR", 4)      = 4
+91106 read(0,  <unfinished ...>
+91172 openat(AT_FDCWD, "out1", O_WRONLY|O_CREAT|O_APPEND, 0644) = 3
+91172 write(3, "WHR\n", 4)              = 4
+91172 close(3)                          = 0
+91172 read(0,  <unfinished ...>
+91106 <... read resumed>"Deutschland, Deutschland \303\274ber a"..., 1024) = 37
+91106 write(4, "$\0\0\0\0\0\0\0", 8)    = 8
+91172 <... read resumed>"$\0\0\0\0\0\0\0", 8) = 8
+91106 write(4, "Deutschland, Deutschland \303\274ber a"..., 36 <unfinished ...>
+91172 read(0,  <unfinished ...>
+91106 <... write resumed>)              = 36
+91172 <... read resumed>"Deutschland, Deutschland \303\274ber a"..., 36) = 36
+91172 openat(AT_FDCWD, "out1", O_WRONLY|O_CREAT|O_APPEND, 0644 <unfinished ...>
+91106 read(0,  <unfinished ...>
+91172 <... openat resumed>)             = 3
+91172 write(3, "Dtschlnd, Dtschlnd \303\274br lln\n", 28) = 28
+91172 close(3)                          = 0
+91172 read(0,  <unfinished ...>
+91106 <... read resumed>"Haben so wenig\n", 1024) = 15
+91106 write(4, "\16\0\0\0\0\0\0\0", 8)  = 8
+91172 <... read resumed>"\16\0\0\0\0\0\0\0", 8) = 8
+91106 write(4, "Haben so wenig", 14 <unfinished ...>
+91172 read(0,  <unfinished ...>
+91106 <... write resumed>)              = 14
+91172 <... read resumed>"Haben so wenig", 14) = 14
+91106 read(0,  <unfinished ...>
+91172 openat(AT_FDCWD, "out1", O_WRONLY|O_CREAT|O_APPEND, 0644) = 3
+91172 write(3, "Hbn s wng\n", 10)       = 10
+91172 close(3)                          = 0
+91172 read(0,  <unfinished ...>
+91106 <... read resumed>"Es gibt kein Ziehl\n", 1024) = 19
+91106 write(6, "\22\0\0\0\0\0\0\0", 8)  = 8
+91173 <... read resumed>"\22\0\0\0\0\0\0\0", 8) = 8
+91106 write(6, "Es gibt kein Ziehl", 18 <unfinished ...>
+91173 read(0,  <unfinished ...>
+91106 <... write resumed>)              = 18
+91173 <... read resumed>"Es gibt kein Ziehl", 18) = 18
+91106 read(0,  <unfinished ...>
+91173 openat(AT_FDCWD, "out2", O_WRONLY|O_CREAT|O_APPEND, 0644) = 3
+91173 write(3, "s gbt kn Zhl\n", 13)    = 13
+91173 close(3)                          = 0
+91173 read(0,  <unfinished ...>
+91106 <... read resumed>"STOP\n", 1024) = 5
+91106 close(4)                          = 0
+91172 <... read resumed>"", 8)          = 0
+91106 close(6)                          = 0
+91173 <... read resumed>"", 8)          = 0
+91106 wait4(91172,  <unfinished ...>
+91173 exit_group(0 <unfinished ...>
+91172 exit_group(0 <unfinished ...>
+91173 <... exit_group resumed>)         = ?
+91172 <... exit_group resumed>)         = ?
+91173 +++ exited with 0 +++
+91106 <... wait4 resumed>0x7ffe3d18c0c8, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+91172 +++ exited with 0 +++
+91106 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=91173, si_uid=1000, si_status=0, si_utime=0, si_stime=1 /* 0.01 s */} ---
+91106 wait4(91172, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 91172
+91106 wait4(91173, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 91173
+91106 exit_group(0)                     = ?
+91106 +++ exited with 0 +++
